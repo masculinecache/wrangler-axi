@@ -71,7 +71,7 @@ self-correct in one step. `--help` is always allowed. No command prompts interac
 ## Installation
 
 ```sh
-npm install -g wrangler-axi
+npm install -g @masculinecache/wrangler-axi
 ```
 
 Requires Node.js >= 20 and `wrangler` on PATH (`npm install -g wrangler`).
