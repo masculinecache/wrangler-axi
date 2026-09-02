@@ -11,7 +11,7 @@ structured errors with actionable suggestions.
 ## Install
 
 ```sh
-npm install -g wrangler-axi
+npm install -g @masculinecache/wrangler-axi
 ```
 
 Requires Node.js >= 20 and the `wrangler` binary available on `PATH` (install it with `npm install -g wrangler`).

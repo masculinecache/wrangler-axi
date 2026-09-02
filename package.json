@@ -1,13 +1,14 @@
 {
-  "name": "wrangler-axi",
+  "name": "@masculinecache/wrangler-axi",
   "version": "0.1.0",
   "description": "Agent-ergonomic TOON wrapper around Cloudflare Wrangler 4.x",
   "type": "module",
   "bin": {
-    "wrangler-axi": "./dist/bin/wrangler-axi.js"
+    "wrangler-axi": "dist/bin/wrangler-axi.js"
   },
   "files": [
     "dist",
+    "!dist/test",
     "skills/wrangler-axi",
     "LICENSE",
     "README.md"
@@ -20,6 +21,17 @@
     "prepublishOnly": "npm run build"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masculinecache/wrangler-axi.git"
+  },
+  "homepage": "https://github.com/masculinecache/wrangler-axi#readme",
+  "bugs": {
+    "url": "https://github.com/masculinecache/wrangler-axi/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=20"
   },
