@@ -1,0 +1,3 @@
+[env]
+GH_REPO = "masculinecache/wrangler-axi"
+GH_CONFIG_DIR = "$HOME/.config/gh-masculinecache"

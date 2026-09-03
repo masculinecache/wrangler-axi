@@ -6,9 +6,10 @@ This file is the project's committed home for project-intrinsic agent knowledge:
 
 ## GitHub credentials
 
-- All GitHub operations for this repo use the `masculinecache` account only. Run every `gh`/`gh-axi` call with `GH_CONFIG_DIR=$HOME/.config/gh-masculinecache` exported first; never bare `gh` on ambient config.
-- `git push` resolves to masculinecache via the repo-local credential helper (blank-reset + masculinecache helper); do not alter it.
-- On any gh auth failure: stop and report blocked. Never retry with different credentials.
+- Every GitHub operation on this repo uses the `masculinecache` account ONLY — never the global `phillias` credentials.
+- Every `gh`/`gh-axi` call exports `GH_CONFIG_DIR=$HOME/.config/gh-masculinecache` (the repo `.mise.toml` already sets it for mise-hooked shells).
+- `git push`/auth flows through the repo-local credential helper (blank-reset + masculinecache helper); never alter it.
+- Any gh auth failure: stop and report blocked; never retry with different credentials.
 
 ## npm publish
 
