@@ -53,7 +53,7 @@ describe("dispatch", () => {
   it("prints version", async () => {
     const r = await invoke(makeRunner({}), ["--version"]);
     expect(r.exitCode).toBe(0);
-    expect(r.stdout).toContain("0.1.0");
+    expect(r.stdout).toContain("0.1.1");
   });
 
   it("prints top-level help", async () => {
