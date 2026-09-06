@@ -30,7 +30,8 @@
     "url": "https://github.com/masculinecache/wrangler-axi/issues"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "engines": {
     "node": ">=20"
