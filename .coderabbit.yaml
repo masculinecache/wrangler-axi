@@ -1,0 +1,13 @@
+reviews:
+  profile: "assertive"
+  path_filters:
+    - "!**/node_modules/**"
+    - "!**/*.lock"
+    - "!**/package-lock.json"
+  path_instructions:
+    - path: "**/*"
+      instructions: |
+        Focus on Cloudflare API integration patterns.
+        Check wrangler command construction is correct.
+        Verify error handling surfaces meaningful messages.
+        Flag hardcoded API endpoints or account IDs that break portability.
